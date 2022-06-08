@@ -20,7 +20,7 @@ class Cannon {
       this.angle -= 1;
     }
 
-    push();    //insere uma comnfiguração nova
+    push();    //Salva as configurações de estilo do desenho atual
     translate(this.x, this.y);   // mudando a posição de x e y
     rotate(this.angle);   // rotacionando o ângulo
     imageMode(CENTER);    //referência de posição central para as imagens
